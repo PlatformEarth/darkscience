@@ -1,0 +1,4 @@
+baseURL = "http://dark.science/"
+languageCode = "en-us"
+title = "Dark Science"
+publishDir = "home"
