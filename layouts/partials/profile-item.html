@@ -1,12 +1,12 @@
-<div class="profile-item">
-      <div class="profile-item-left">
-          <div class="profile-graphic">
-              <img src="img/{{ .Params.image }}" alt="{{ .Title }}" />
-          </div>
-      </div>
-      <div class="profile-item-right">
-          <h3>{{ .Title }}</h3>
-          <p>{{ .Content }}</p>
-          <p><a href="bio-david.html">View full profile</a></p>
-      </div>
-  </div>
+                        <div class="profile-item">
+                            <div class="profile-item-left">
+                                <div class="profile-graphic">
+                                    <img src="img/{{ .Params.image }}" alt="{{ .Title }}" />
+                                </div>
+                            </div>
+                            <div class="profile-item-right">
+                                <h3>{{ .Title }}</h3>
+                                {{ .Content }}
+                                <p><a href="bio-david.html">View full profile</a></p>
+                            </div>
+                        </div>

@@ -107,32 +107,20 @@
 
                 </section>
 
-
-
-
                 <!-- Profile Section -->
                 <section id="profile-wrapper">
                     <div class="wrapper-fixed">
 
-                        {{ with .Site.GetPage "/profile/david-bovill.md" }}{{ partial "profile-item.html" . }}{{ end }}
-
-                        {{ with .Site.GetPage "/profile/dil-green.md" }}{{ partial "profile-item.html" . }}{{ end }}
-
-                        {{ with .Site.GetPage "/profile/max-graef.md" }}{{ partial "profile-item.html" . }}{{ end }}
-
-                        {{ with .Site.GetPage "/profile/miroslav-wiesner.md" }}{{ partial "profile-item.html" . }}{{ end }}
-
-                        {{ with .Site.GetPage "/profile/clement-renaud.md" }}{{ partial "profile-item.html" . }}{{ end }}
-
-                        {{ with .Site.GetPage "/profile/jerry-michalski.md" }}{{ partial "profile-item.html" . }}{{ end }}
-
-                        {{ with .Site.GetPage "/profile/matthew-difranco.md" }}{{ partial "profile-item.html" . }}{{ end }}
-
-                        {{ with .Site.GetPage "/profile/jaya-brekke.md" }}{{ partial "profile-item.html" . }}{{ end }}
-
-                        {{ with .Site.GetPage "/profile/martin-etzrodt.md" }}{{ partial "profile-item.html" . }}{{ end }}
-
-                        {{ with .Site.GetPage "/profile/daniel-wetzel.md" }}{{ partial "profile-item.html" . }}{{ end }}
+{{ with .Site.GetPage "/profile/david-bovill.md" }}{{ partial "profile-item.html" . }}{{ end }}
+{{ with .Site.GetPage "/profile/dil-green.md" }}{{ partial "profile-item.html" . }}{{ end }}
+{{ with .Site.GetPage "/profile/max-graef.md" }}{{ partial "profile-item.html" . }}{{ end }}
+{{ with .Site.GetPage "/profile/miroslav-wiesner.md" }}{{ partial "profile-item.html" . }}{{ end }}
+{{ with .Site.GetPage "/profile/clement-renaud.md" }}{{ partial "profile-item.html" . }}{{ end }}
+{{ with .Site.GetPage "/profile/jerry-michalski.md" }}{{ partial "profile-item.html" . }}{{ end }}
+{{ with .Site.GetPage "/profile/matthew-difranco.md" }}{{ partial "profile-item.html" . }}{{ end }}
+{{ with .Site.GetPage "/profile/jaya-brekke.md" }}{{ partial "profile-item.html" . }}{{ end }}
+{{ with .Site.GetPage "/profile/martin-etzrodt.md" }}{{ partial "profile-item.html" . }}{{ end }}
+{{ with .Site.GetPage "/profile/daniel-wetzel.md" }}{{ partial "profile-item.html" . }}{{ end }}
 
                     </div>
                 </section>
@@ -168,6 +156,5 @@
         <!--[if (gte IE 6)&(lte IE 8)]>
           <script type="text/javascript" src="assets/selectivizr-min.js"></script>
         <![endif]-->
-
     </body>
 </html>
