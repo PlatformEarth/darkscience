@@ -1,12 +1,12 @@
 <div class="profile-item">
       <div class="profile-item-left">
           <div class="profile-graphic">
-              <img src="img/bio-david.png" alt="David Bovill" />
+              <img src="img/{{ .Params.image }}" alt="{{ .Title }}" />
           </div>
       </div>
       <div class="profile-item-right">
-          <h3>David Bovill</h3>
-          <p>Trained as a doctor and scientist, David has worked in many fields - multimedia, publishing, communication, education, performance. Connecting these is a thread of deep concern for designing environments for more effective communication, understanding and decision making. </p>
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Content }}</p>
           <p><a href="bio-david.html">View full profile</a></p>
       </div>
   </div>

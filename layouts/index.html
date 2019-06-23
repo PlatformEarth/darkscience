@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html lang="en-GB">
     <head>
-    
+
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="format-detection" content="telephone=no">
 
-        
+
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/_oc.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -20,17 +20,17 @@
         <link rel="stylesheet" href="https://cdn.maptiler.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
 
         <title>Home Page - Dark Science</title>
-    
+
     </head>
-    
+
     <body class="homepage">
-        <div id="container"> 
-            
+        <div id="container">
+
             <!-- Heading Section -->
             <header id="header-wrapper" class="wrapper-fluid">
                 <div id="header-wrapper-inner">
                     <div class="wrapper-fixed">
-                        
+
                         <div id="header-logo">
                             <a href="index.html">
                                 <img src="img/logo-dark-science.png" alt="dark.SCIENCE Logo" />
@@ -52,8 +52,8 @@
                 </div>
 
             </header>
-            
-            <main id="main-wrapper" role="main" class="wrapper-fluid"> 
+
+            <main id="main-wrapper" role="main" class="wrapper-fluid">
 
                 <!-- Video Section -->
                 <section id="video-wrapper">
@@ -114,73 +114,63 @@
                 <section id="profile-wrapper">
                     <div class="wrapper-fixed">
 
+                        {{ with .Site.GetPage "/profile/david-bovill.md" }}{{ partial "profile-item.html" . }}{{ end }}
+
+                        {{ with .Site.GetPage "/profile/dil-green.md" }}{{ partial "profile-item.html" . }}{{ end }}
+
+                        {{ with .Site.GetPage "/profile/max-graef.md" }}{{ partial "profile-item.html" . }}{{ end }}
+
+                        {{ with .Site.GetPage "/profile/miroslav-wiesner.md" }}{{ partial "profile-item.html" . }}{{ end }}
+
+                        {{ with .Site.GetPage "/profile/clement-renaud.md" }}{{ partial "profile-item.html" . }}{{ end }}
+
+                        {{ with .Site.GetPage "/profile/jerry-michalski.md" }}{{ partial "profile-item.html" . }}{{ end }}
+
+                        {{ with .Site.GetPage "/profile/matthew-difranco.md" }}{{ partial "profile-item.html" . }}{{ end }}
+
+                        {{ with .Site.GetPage "/profile/jaya-brekke.md" }}{{ partial "profile-item.html" . }}{{ end }}
+
+
                         <div class="profile-item">
                             <div class="profile-item-left">
                                 <div class="profile-graphic">
-                                    <img src="img/bio-dil.jpg" alt="Dil Green" />
+                                    <img src="img/Martin110sq.png" alt="Dr Martin Etzrodt" />
                                 </div>
                             </div>
                             <div class="profile-item-right">
-                                <h3>David Bovill</h3>
-                                <p>Pragmatic Utopian. I work to build the best future I can imagine, starting right here, right now, with what we have, having cognisance of Christopher Alexander's principle of 'structure preserving transformations'.</p>
-                                <p><a href="bio-dil.html">View full profile</a></p>
+                                <h3>Dr Martin Etzrodt</h3>
+                                <p>Martin Etzrodt works at the Akasha Foundation, researching the intersection of blockchain and collective intelligence. He has a background in chemistry and biomedical research and was trained in Munich, Heidelberg, Lausanne and Boston.
+
+</p>
+                                <p><a href="bio-Martin.html">View full profile</a></p>
                             </div>
                         </div>
-
 
                         <div class="profile-item">
                             <div class="profile-item-left">
                                 <div class="profile-graphic">
-                                    <img src="img/bio-dil.jpg" alt="Dil Green" />
-                                </div>
-                            </div>
-                            <div class="profile-item-right">
-                                <h3>Dil Green</h3>
-                                <p>Pragmatic Utopian. I work to build the best future I can imagine, starting right here, right now, with what we have, having cognisance of Christopher Alexander's principle of 'structure preserving transformations'.</p>
-                                <p><a href="bio-dil.html">View full profile</a></p>
-                            </div>
-                        </div>
-
-
-                        <div class="profile-item">
-                            <div class="profile-item-left">
-                                <div class="profile-graphic">
-                                    <img src="img/bio-dil.jpg" alt="Dil Green" />
-                                </div>
-                            </div>
-                            <div class="profile-item-right">
-                                <h3>Miroslav Wiesner</h3>
-                                <p>Pragmatic Utopian. I work to build the best future I can imagine, starting right here, right now, with what we have, having cognisance of Christopher Alexander's principle of 'structure preserving transformations'.</p>
-                                <p><a href="bio-dil.html">View full profile</a></p>
-                            </div>
-                        </div>
-
-
-                        <div class="profile-item">
-                            <div class="profile-item-left">
-                                <div class="profile-graphic">
-                                    <img src="img/bio-dil.jpg" alt="Dil Green" />
+                                    <img src="img/Daniel110sq.png" alt="Daniel Wetzel" />
                                 </div>
                             </div>
                             <div class="profile-item-right">
                                 <h3>Daniel Wetzel</h3>
-                                <p>Pragmatic Utopian. I work to build the best future I can imagine, starting right here, right now, with what we have, having cognisance of Christopher Alexander's principle of 'structure preserving transformations'.</p>
-                                <p><a href="bio-dil.html">View full profile</a></p>
+                                <p>Daniel co-founded Rimon Protokoll in 2000, working in theatre, audio, film and installation. Their work with “experts of the everyday life” is described as groundbreaking and leading the path to new forms of documentary theater.
+
+</p>
+                                <p><a href="bio-Daniel.html">View full profile</a></p>
                             </div>
                         </div>
 
                     </div>
                 </section>
 
-
-
             </main>
-            
+
             <footer id="footer-wrapper" class="wrapper-fluid">
                 <div class="wrapper-fixed">
-                    
+
                     <div class="column-wrapper">
-                        
+
                         <div class="column b-1-2 left">
                             <ul>
                                 <li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -193,18 +183,18 @@
                         <div class="column b-1-2 right">
                             <img src="img/logo-dark-science-small.png" alt="dark.SCIENCE logo" />
                         </div>
-                        
+
                     </div>
                 </div>
             </footer>
-        
+
         </div>
 
         <script type="text/javascript" src="assets/jquery-1.11.2.min.js"></script>
         <script type="text/javascript" src="assets/script.js"></script>
         <!--[if (gte IE 6)&(lte IE 8)]>
           <script type="text/javascript" src="assets/selectivizr-min.js"></script>
-        <![endif]--> 
+        <![endif]-->
 
     </body>
 </html>
