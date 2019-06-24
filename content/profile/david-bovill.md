@@ -2,10 +2,16 @@
 title: "Dr David Bovill"
 date: 2019-06-23T20:43:41+01:00
 draft: false
+type: "profile"
+layout: "profile"
 image: "bio-david.png"
 ---
 Trained as a doctor and scientist, David has worked in many fields - multimedia, publishing, communication, education, performance. Connecting these is a thread of deep concern for designing environments for more effective communication, understanding and decision making.
+
+{{< vimeo 342290292 >}}
+
 <!--more-->
+
 David has extensive and diverse experience of team leadership and management, with a particular emphasis on managing creative teams, community engagement and open source developer communities. His style is facilitatory and flexile with extensive knowledge in modern agile development methodology, as used by small open source programming teams.
 
 David, was a director of the board of Finsbury Park SRB for 5 years, with an annual budget of £5 million, and as Senior Developmental Editor for Times Mirror Publishing was responsible for a new media budget of just over £1 million.

@@ -7,9 +7,9 @@
         <meta name="format-detection" content="telephone=no">
 
 
-        <link rel="stylesheet" type="text/css" href="http://dark.science/assets/home/css/normalize.css" />
-        <link rel="stylesheet" type="text/css" href="http://dark.science/assets/home/css/_oc.css" />
-        <link rel="stylesheet" type="text/css" href="http://dark.science/assets/home/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/_oc.css" />
+        <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/style.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap" rel="stylesheet">
 
@@ -26,14 +26,14 @@
 
                         <div id="header-logo">
                             <a href="index.html">
-                                <img src="http://dark.science/assets/home/img/logo-dark-science-medium-min.png" alt="dark.SCIENCE Logo" />
+                                <img src="{{ .Site.BaseURL }}img/logo-dark-science-medium-min.png" alt="dark.SCIENCE Logo" />
                             </a>
                         </div>
 
                     </div>
 
                     <div id="header-homepage">
-                        <a href="index.html">Homepage</a>
+                        <a href="{{ .Site.BaseURL }}">Homepage</a>
                     </div>
 
                 </div>
@@ -46,42 +46,32 @@
                     <div class="wrapper-fixed">
 
                         <div id="bio-left">
-
                             <div id="bio-graphic">
-                                <img src="http://dark.science/assets/home/img/bio-dil.jpg" alt="Dil Green" />
+                                <img src="{{ .Site.BaseURL }}img/{{ .Params.image }}" alt="{{ .Title }}" />
                             </div>
 
                         </div>
 
                         <div id="bio-right">
 
-                            <h1>Dil Green</h1>
+                            <h1>{{ .Title }}</h1>
 
                             <ul>
                                 <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                 <li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#" target="_blank" class="img"><img src="img/icon-blogger.png" alt="Blogger" /></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                 <li><a href="#" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                             </ul>
 
                         </div>
-
                     </div>
                 </section>
-
 
                 <section id="page-content">
                     <div class="wrapper-fixed">
-
                         {{ .Content }}
-
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                        <p>Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-
                     </div>
                 </section>
-
 
             </main>
 
@@ -100,7 +90,7 @@
                         </div>
 
                         <div class="column b-1-2 right">
-                            <img src="img/logo-dark-science-small.png" alt="dark.SCIENCE logo" />
+                            <img src="{{ .Site.BaseURL }}img/logo-dark-science-small.png" alt="dark.SCIENCE logo" />
                         </div>
 
                     </div>
@@ -109,8 +99,8 @@
 
         </div>
 
-        <script type="text/javascript" src="assets/jquery-1.11.2.min.js"></script>
-        <script type="text/javascript" src="assets/script.js"></script>
+        <script type="text/javascript" src="{{ .Site.BaseURL }}assets/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="{{ .Site.BaseURL }}assets/script.js"></script>
         <!--[if (gte IE 6)&(lte IE 8)]>
           <script type="text/javascript" src="assets/selectivizr-min.js"></script>
         <![endif]-->
