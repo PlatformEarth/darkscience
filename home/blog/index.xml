@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Dark Science</title>
+    <link>http://dark.science/blog/</link>
+    <description>Recent content in Blogs on Dark Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Jun 2019 21:49:17 +0100</lastBuildDate>
+    
+	<atom:link href="http://dark.science/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dark Science</title>
+      <link>http://dark.science/blog/dark-science/</link>
+      <pubDate>Sun, 23 Jun 2019 21:49:17 +0100</pubDate>
+      
+      <guid>http://dark.science/blog/dark-science/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in.</description>
+    </item>
+    
+  </channel>
+</rss>

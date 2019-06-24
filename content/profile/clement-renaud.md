@@ -5,3 +5,4 @@ draft: false
 image: "Clement110sq.png"
 ---
 Clément Renaud is a researcher, artist and creative developer specialized in data-intensive projects. He creates new representations and tools based on advanced data workflows. He is member of the Institute for Complex Systems (IXXI) at ENS de Lyon. He lives in Shenzhen (China) and Lyon (France).
+<!--more-->
