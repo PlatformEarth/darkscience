@@ -3,6 +3,7 @@ title: "Dil Green"
 date: 2019-06-23T21:20:52+01:00
 draft: false
 image: "bio-dil.jpg"
+video: 342290292  
 type: "profile"
 layout: "profile"
 ---
@@ -10,6 +11,8 @@ A vocational architect, Dil is now working to develop new tools for human collab
 <!--more-->
 My 25 year practice as an architect has been informed by a methodology introduced by Christopher Alexander in 1977.
 This approach, ‘Pattern Language’, offers a powerful tool for identifying, documenting, analysing, and tracing interactions between recurring patterns in the complex system encompassing people, society and place - the field of architecture. It was prefigured in a widely cited article, ‘A City is not a Tree’ [Alexander , 1968], which identified characteristics of complexity in such systems.
+
+{{< vimeo 342290292 >}}
 
 This work had wide influence beyond architecture, notably within computing, [influencing Ward Cunningham, a collaborator here], the ‘Design Patterns’ movement, and the agile approach to software development.
 After spending time at UC Berkeley studying with and working for Alexander, I worked using many aspects of this approach, growing to understand it thoroughly.
