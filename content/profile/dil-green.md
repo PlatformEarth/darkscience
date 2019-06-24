@@ -19,6 +19,8 @@ After spending time at UC Berkeley studying with and working for Alexander, I wo
 
 Around 2000, it became clear to me that humanity was experiencing diminishing rates of return on reductivist approaches - the classical mode of science.
 
+![Dil image](/bio-dil.jpg)
+
 All the important issues - biology, climate, disease, large-scale social dynamics, neuroscience - require systemic understanding and modelling for progress with the big problems.
 
 But while science develops the capacity to address systems, the general public needs to engage too; -but beyond some superficial cliches like ‘butterfly effect’ and ‘chaos theory’, there is lack of public language required for discussion of such systemic subjects - at a time when such debate is vital. I presented a talk on this at a Citizen Science event in 2017.
