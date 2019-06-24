@@ -1,7 +1,7 @@
                         <div class="profile-item">
                             <div class="profile-item-left">
                                 <div class="profile-graphic">
-                                  <a href="{{ .URL }}">
+                                  <a href="{{ .Site.BaseURL }}assets/home/profile/{{ .File.TranslationBaseName }}/">
                                     <img src="img/{{ .Params.image }}" alt="{{ .Title }}" />
                                   </a>
                                 </div>
@@ -9,6 +9,6 @@
                             <div class="profile-item-right">
                                 <h3>{{ .Title }}</h3>
                                 {{ .Summary }}
-                                <p><a href="{{ .URL }}">View full profile</a></p>
+                                <p><a href="{{ .Site.BaseURL }}assets/home/profile/{{ .File.TranslationBaseName }}/">View full profile</a></p>
                             </div>
                         </div>
