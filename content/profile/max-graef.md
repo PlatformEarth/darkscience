@@ -8,4 +8,3 @@ image: "Max-pic110sq.png"
 ---
 Max is an audio engineer, the founder of Radioactive.org.uk working with people without radio experience to develop skills and confidence to run their own radio stations and produce radio programming.
 <!--more-->
-Hello
